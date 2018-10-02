@@ -20,10 +20,19 @@
   </head>
   <body>
     <?php include'../../navbar.php';?>
-    <div>
+    <div class="container-fluid text-center"> 
+      <div class="row">
+      <div class="col-md-12">
+        <h1 style="font-weight: 200; padding: 30px;">Management and Development</h1>
+        <div style="color: #FFFFFF;">Irony</div>
+        <div>
+          <p style="font-weight:200">We learn and expertise in hardware. The hardware we work on is, PCs, laptops, and cords that connect the hardware to the ports. </p>
+        </div>
+      </div>
       <div id="Management-and-Development" class="col-md-12 group-div" class="trello-groups inside-div-trello">
         <div id="trello-management-and-development" class="trello-groups">
-          <iframe frameborder="0" src="https://trello.com/b/dw5jotPC.html" class="trello-groups"></iframe>
+          <iframe frameborder="0" src="https://trello.com/b/v2MQl0EB.html" class="trello-groups">
+          </iframe>
         </div>
       </div>
 
