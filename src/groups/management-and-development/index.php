@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="/js/riot-trello/dist/riot-trello.js"></script>
     <title>Management and Development</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,6 +20,7 @@
       </style>
   </head>
   <body>
+    <riot-trello src="https://trello.com/b/v2MQl0EB.json"></riot-trello>
     <?php include'../../navbar.php';?>
     <div class="container-fluid text-center"> 
       <div class="row">
