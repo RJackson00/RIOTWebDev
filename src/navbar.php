@@ -15,7 +15,6 @@
 	function more_disabled_than_r7($base, $testurl){
 		if($base == $testurl || $base == $testurl . "/" || preg_match(($testurl . "*/"),  $base)){
 			echo "disabled";
-			return true;
 		}
 	} 
 
@@ -48,7 +47,7 @@
 </style>
 <nav class="navbar navbar-expand-sm fixed-top" id="navbar-main">
 	<a class="navbar-brand" href="/">
-		<img class="" src="/apple-icon.png" style="width:20px;" />	
+		<img class="" src="/favicon.ico" style="width:20px;" />	
 	</a> 
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
