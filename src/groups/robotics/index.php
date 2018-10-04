@@ -35,7 +35,7 @@
       <br>
       <div id="Robotics" class="col-md-12 group-div inside-div-trello">
         <div id="trello-robotics"  class="trello-groups">
-            <riot-trello src="https://trello.com/b/R2Jwr8h9.json"></riot-trello>s
+            <riot-trello src="https://trello.com/b/R2Jwr8h9.json"></riot-trello>
         </div>
       </div>
   </div>
