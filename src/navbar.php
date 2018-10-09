@@ -15,7 +15,6 @@
 	function more_disabled_than_r7($base, $testurl){
 		if($base == $testurl || $base == $testurl . "/" || preg_match(($testurl . "*/"),  $base)){
 			echo "disabled";
-			return true;
 		}
 	} 
 
@@ -25,14 +24,13 @@
 		font-weight: 300;
 	} 
 	.nav-link:hover {
-		color: #000000;
+		color: #A9A9A9;
 	}
 	/**.nav-link:active {
 		text-decoration: underline 10px;
 	}**/
 	.active {
-		text-decoration-style: 10px;
-		text-decoration: underline;
+		color: #A9A9A9 !important;
 	}
 	.nav-item  {
 		color: #FFFFFF;
@@ -49,7 +47,7 @@
 </style>
 <nav class="navbar navbar-expand-sm fixed-top" id="navbar-main">
 	<a class="navbar-brand" href="/">
-		<img class="" src="/apple-icon.png" style="width:20px;" />	
+		<img class="" src="/favicon.ico" style="width:20px;" />	
 	</a> 
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
@@ -74,16 +72,16 @@
   				</ul>
 			</div>
 			<li class="nav-item <?php setnavactive($url, "/about"); ?>">
-				<a class="nav-link" href="/about">About</a>
+				<a class="nav-link <?php setnavactive($url, "/about"); ?>" href="/about">About</a>
 			</li>
 			<li class="nav-item <?php setnavactive($url, "/donations"); ?>">
-				<a class="nav-link" href="/donations">Donations</a>
+				<a class="nav-link <?php setnavactive($url, "/donations"); ?>" href="/donations">Donations</a>
 			</li>
 			<li class="nav-item <?php setnavactive($url, "/contracts"); ?>">
-				<a class="nav-link" href="/contracts">Contracts</a>
+				<a class="nav-link <?php setnavactive($url, "/contracts"); ?>" href="/contracts">Contracts</a>
 			</li>
 			<li class="nav-item <?php setnavactive($url, "/events"); ?>">
-				<a class="nav-link" href="/events">Events</a>
+				<a class="nav-link <?php setnavactive($url, "/events"); ?>" href="/events">Events</a>
 			</li>
 		</ul>
 	</div>
