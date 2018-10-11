@@ -43,7 +43,7 @@
       new RiotTrello({
           target: board,
           data: {
-              src: "https://trello.com/b/LcnXMWCh.json",
+              src: "https://trello.com/b/cw1hGcLq.json",
           }
       });
     </script>
